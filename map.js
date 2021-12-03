@@ -15,6 +15,7 @@ console.log(results);
 
 // Using map()
 // Used to do something to every element in an array
+// map method called on the array eg, nums.map()
 const mapResults = nums.map(function(num) { return num * 2 });
 console.log(mapResults);
 
@@ -45,5 +46,6 @@ const students = [
   },
 ];
 
+// return an array containing the name and id values of all in students array
 const studentsWithIds = students.map(student => [student.name, student.id]);
 console.log(studentsWithIds);
